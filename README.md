@@ -48,7 +48,8 @@ Deep fake videos often contain subtle artifacts such as facial asymmetry, blendi
 ![Confusion Matrix](results/confusion_matrix.png)
 
 ### Real Video Prediction
-![Real Output](results/real_video_output.png)
+![Real Output](results/real_video_output.jpg)
+
 
 ### Fake Video Prediction
 ![Fake Output](results/fake_video_output.png)
