@@ -77,6 +77,25 @@ Make sure Python (3.8 or higher) is installed, then run:
 ```bash
 pip install -r requirements.txt
 ```
+### 🔹 Step 3: Prepare Dataset
+```md
+### Step 3: Prepare Dataset
+Arrange the dataset in the following structure:
+dataset/
+├── real/
+└── fake/
 
 
+> ⚠️ The dataset is not included in this repository due to size limitations.
+```
+### Step 4: Train the Model
+Run the training script:
+```bash
+python src/train_model.py
+```
+### Step 5: Predict on a Video
+Place a video file (e.g., `sample.mp4`) in the project directory and run:
+```bash
+python src/predict_video.py
 
+```
