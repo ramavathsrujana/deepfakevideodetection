@@ -67,3 +67,9 @@ The project demonstrates that lightweight deep learning models such as MobileNet
 pip install -r requirements.txt
 python src/train_model.py
 python src/predict_video.py
+## 🛠️ Setup & Usage
+
+### Training the Model
+```bash
+python src/train_model.py
+
