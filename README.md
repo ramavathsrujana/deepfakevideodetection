@@ -110,12 +110,13 @@ The script will:
 - Detect faces
 - Predict Real/Fake labels for frames
 - Output the final prediction
-📌 The model was trained using Google Colab.
+- 📌 The model was trained using Google Colab.
 Dataset and trained model files are not included due to size constraints.
 
 ---
 
 ## 📁 Project Structure
+```
 deepfakevideodetection/
 ├── src/
 │ ├── frame_extraction.py
@@ -126,7 +127,7 @@ deepfakevideodetection/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ---
 ## 🏁 Conclusion
 The project demonstrates that lightweight deep learning models such as MobileNetV2 can effectively detect deep fake videos with good accuracy while remaining computationally efficient. This system can be extended for real-time detection and deployment in digital forensics and media verification.
