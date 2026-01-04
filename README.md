@@ -61,14 +61,14 @@ Deep fake videos often contain subtle artifacts such as facial asymmetry, blendi
 
 ## 🚀 Setup & Usage
 
-### Step 1: Clone the Repository
+### 🔹 Step 1: Clone the Repository
 ```bash
 git clone https://github.com/ramavathsrujana/deepfakevideodetection.git
 cd deepfakevideodetection
 ```
 ---
 
-### Step 2: Install Dependencies
+### 🔹 Step 2: Install Dependencies
 Make sure Python (3.8 or higher) is installed, then run:
 ```bash
 pip install -r requirements.txt
@@ -86,7 +86,7 @@ dataset/
 Public datasets such as DFDC (DeepFake Detection Challenge) from Kaggle can be used.
 ---
 
-### Step 4: Train the Model
+### 🔹 Step 4: Train the Model
 Run the training script:
 ```bash
 python src/train_model.py
@@ -98,7 +98,7 @@ This will:
 - Save the trained model
 ---
 
-### Step 5: Predict on a Video
+### 🔹 Step 5: Predict on a Video
 Place a video file (e.g., `sample.mp4`) in the project directory and run:
 ```bash
 python src/predict_video.py
