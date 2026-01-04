@@ -85,7 +85,7 @@ dataset/
 
 > ⚠️ The dataset is not included in this repository due to size limitations.
 Public datasets such as DFDC (DeepFake Detection Challenge) from Kaggle can be used.
-```
+---
 
 ### Step 4: Train the Model
 Run the training script:
@@ -94,9 +94,9 @@ python src/train_model.py
 ```
 
 This will:
-Load images from the dataset
-Train a MobileNetV2-based CNN model
-Save the trained model
+- Load images from the dataset
+- Train a MobileNetV2-based CNN model
+- Save the trained model
 ---
 
 ### Step 5: Predict on a Video
@@ -106,10 +106,10 @@ python src/predict_video.py
 ```
 
 The script will:
-Extract frames from the video
-Detect faces
-Predict Real/Fake labels for frames
-Output the final prediction
+- Extract frames from the video
+- Detect faces
+- Predict Real/Fake labels for frames
+- Output the final prediction
 📌 The model was trained using Google Colab.
 Dataset and trained model files are not included due to size constraints.
 
