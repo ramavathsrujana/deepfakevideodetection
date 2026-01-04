@@ -81,7 +81,7 @@ Arrange the dataset in the following structure:
 dataset/
 ├── real/
 └── fake/
-
+```
 
 > ⚠️ The dataset is not included in this repository due to size limitations.
 Public datasets such as DFDC (DeepFake Detection Challenge) from Kaggle can be used.
@@ -91,17 +91,19 @@ Public datasets such as DFDC (DeepFake Detection Challenge) from Kaggle can be u
 Run the training script:
 ```bash
 python src/train_model.py
+```
 
 This will:
 Load images from the dataset
 Train a MobileNetV2-based CNN model
 Save the trained model
-```
+---
 
 ### Step 5: Predict on a Video
 Place a video file (e.g., `sample.mp4`) in the project directory and run:
 ```bash
 python src/predict_video.py
+```
 
 The script will:
 Extract frames from the video
@@ -110,7 +112,7 @@ Predict Real/Fake labels for frames
 Output the final prediction
 📌 The model was trained using Google Colab.
 Dataset and trained model files are not included due to size constraints.
-```
+
 ---
 
 ## 📁 Project Structure
