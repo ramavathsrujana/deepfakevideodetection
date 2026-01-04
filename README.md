@@ -61,34 +61,22 @@ Deep fake videos often contain subtle artifacts such as facial asymmetry, blendi
 The project demonstrates that lightweight deep learning models such as MobileNetV2 can effectively detect deep fake videos with good accuracy while remaining computationally efficient. This system can be extended for real-time detection and deployment in digital forensics and media verification.
 
 ---
+---
 
-## 🚀 How to Run the Project
-```bash
-pip install -r requirements.txt
-python src/train_model.py
-python src/predict_video.py
-## 🛠️ Setup & Usage
-
-### Training the Model
-```bash
-python src/train_model.py
-## 🛠️ Setup & Usage
+## 🚀 Setup & Usage
 
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/ramavathsrujana/deepfakevideodetection.git
 cd deepfakevideodetection
+```
+---
+
 ### Step 2: Install Dependencies
-Make sure Python is installed, then run:
+Make sure Python (3.8 or higher) is installed, then run:
 ```bash
 pip install -r requirements.txt
-
-### Step 3: Prepare Dataset
-Arrange the dataset in the following structure:
-### Step 4: Train the Model
-Run the training script:
-```bash
-python src/train_model.py
+```
 
 
 
