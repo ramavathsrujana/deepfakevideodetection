@@ -72,4 +72,23 @@ python src/predict_video.py
 ### Training the Model
 ```bash
 python src/train_model.py
+## 🛠️ Setup & Usage
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/ramavathsrujana/deepfakevideodetection.git
+cd deepfakevideodetection
+### Step 2: Install Dependencies
+Make sure Python is installed, then run:
+```bash
+pip install -r requirements.txt
+
+### Step 3: Prepare Dataset
+Arrange the dataset in the following structure:
+### Step 4: Train the Model
+Run the training script:
+```bash
+python src/train_model.py
+
+
 
