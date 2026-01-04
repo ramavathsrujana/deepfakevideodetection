@@ -39,6 +39,20 @@ Deep fake videos often contain subtle artifacts such as facial asymmetry, blendi
 - Training Accuracy: ~89.95%
 - Validation Accuracy: ~70.77%
 - Evaluated using accuracy/loss graphs and confusion matrix
+- ## 📸 Sample Outputs
+
+### Accuracy & Loss
+![Accuracy and Loss](results/accuracy_loss.png)
+
+### Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
+
+### Real Video Prediction
+![Real Output](results/real_video_output.png)
+
+### Fake Video Prediction
+![Fake Output](results/fake_video_output.png)
+
 
 ---
 
