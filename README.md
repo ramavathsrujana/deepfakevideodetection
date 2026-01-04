@@ -76,7 +76,6 @@ pip install -r requirements.txt
 
 ### 🔹 Step 3: Prepare Dataset
 ```md
-### Step 3: Prepare Dataset
 Arrange the dataset in the following structure:
 dataset/
 ├── real/
