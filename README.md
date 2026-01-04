@@ -39,7 +39,9 @@ Deep fake videos often contain subtle artifacts such as facial asymmetry, blendi
 - Training Accuracy: ~89.95%
 - Validation Accuracy: ~70.77%
 - Evaluated using accuracy/loss graphs and confusion matrix
-- ## 📸 Sample Outputs
+---
+
+ ## 📸 Sample Outputs
 
 ### Accuracy & Loss
 ![Accuracy and Loss](results/accuracy_loss.png)
@@ -57,12 +59,6 @@ Deep fake videos often contain subtle artifacts such as facial asymmetry, blendi
 
 ---
 
-## 🏁 Conclusion
-The project demonstrates that lightweight deep learning models such as MobileNetV2 can effectively detect deep fake videos with good accuracy while remaining computationally efficient. This system can be extended for real-time detection and deployment in digital forensics and media verification.
-
----
----
-
 ## 🚀 Setup & Usage
 
 ### Step 1: Clone the Repository
@@ -77,6 +73,7 @@ Make sure Python (3.8 or higher) is installed, then run:
 ```bash
 pip install -r requirements.txt
 ```
+
 ### 🔹 Step 3: Prepare Dataset
 ```md
 ### Step 3: Prepare Dataset
@@ -87,15 +84,59 @@ dataset/
 
 
 > ⚠️ The dataset is not included in this repository due to size limitations.
+Public datasets such as DFDC (DeepFake Detection Challenge) from Kaggle can be used.
 ```
+
 ### Step 4: Train the Model
 Run the training script:
 ```bash
 python src/train_model.py
+
+This will:
+Load images from the dataset
+Train a MobileNetV2-based CNN model
+Save the trained model
 ```
+
 ### Step 5: Predict on a Video
 Place a video file (e.g., `sample.mp4`) in the project directory and run:
 ```bash
 python src/predict_video.py
 
+The script will:
+Extract frames from the video
+Detect faces
+Predict Real/Fake labels for frames
+Output the final prediction
+📌 The model was trained using Google Colab.
+Dataset and trained model files are not included due to size constraints.
 ```
+---
+
+## 📁 Project Structure
+deepfakevideodetection/
+├── src/
+│ ├── frame_extraction.py
+│ ├── face_detection.py
+│ ├── train_model.py
+│ └── predict_video.py
+├── results/
+├── requirements.txt
+├── .gitignore
+└── README.md
+
+---
+## 🏁 Conclusion
+The project demonstrates that lightweight deep learning models such as MobileNetV2 can effectively detect deep fake videos with good accuracy while remaining computationally efficient. This system can be extended for real-time detection and deployment in digital forensics and media verification.
+
+---
+
+## 👩‍💻 Authors
+- Ramavath Srujana  
+- Gurram Vijendar Reddy  
+- Gandla Swathi  
+- Chenna Chaitanya
+---
+
+## 📜 License
+This project is licensed under the MIT License.
